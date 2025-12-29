@@ -1,2 +1,5 @@
-def example_function():
-    return 1 + 1
+"""TP25 BLE thermometer client library."""
+
+from .client import TP25Client
+
+__all__ = ["TP25Client"]
