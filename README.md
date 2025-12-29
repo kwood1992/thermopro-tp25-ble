@@ -1,9 +1,9 @@
 # thermopro-tp25-ble
 
 [![PyPI](https://img.shields.io/pypi/v/thermopro-tp25-ble.svg)](https://pypi.org/project/thermopro-tp25-ble/)
-[![Tests](https://github.com/midgets2006/thermopro-tp25-ble/actions/workflows/test.yml/badge.svg)](https://github.com/midgets2006/thermopro-tp25-ble/actions/workflows/test.yml)
-[![Changelog](https://img.shields.io/github/v/release/midgets2006/thermopro-tp25-ble?include_prereleases&label=changelog)](https://github.com/midgets2006/thermopro-tp25-ble/releases)
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/midgets2006/thermopro-tp25-ble/blob/main/LICENSE)
+[![Tests](https://github.com/kwood1992/thermopro-tp25-ble/actions/workflows/test.yml/badge.svg)](https://github.com/kwood1992/thermopro-tp25-ble/actions/workflows/test.yml)
+[![Changelog](https://img.shields.io/github/v/release/kwood1992/thermopro-tp25-ble?include_prereleases&label=changelog)](https://github.com/kwood1992/thermopro-tp25-ble/releases)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/kwood1992/thermopro-tp25-ble/blob/main/LICENSE)
 
 Thermopro TP25 BLE Library
 
