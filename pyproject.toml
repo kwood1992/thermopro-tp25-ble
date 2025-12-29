@@ -1,6 +1,29 @@
 [project]
-name = "placeholder"
+name = "thermopro-tp25-ble"
 version = "0.1"
+description = "Thermopro TP25 BLE Library"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "null"}]
+license = "Apache-2.0"
+classifiers = []
+dependencies = [
+
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.uv]
+package = true
+
+[project.urls]
+Homepage = "https://github.com/midgets2006/thermopro-tp25-ble"
+Changelog = "https://github.com/midgets2006/thermopro-tp25-ble/releases"
+Issues = "https://github.com/midgets2006/thermopro-tp25-ble/issues"
+CI = "https://github.com/midgets2006/thermopro-tp25-ble/actions"
+
 
 [project.optional-dependencies]
 test = ["pytest"]
