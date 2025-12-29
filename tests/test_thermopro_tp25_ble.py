@@ -1,5 +1,10 @@
-from thermopro_tp25_ble import example_function
+# content of test_hello.py
 
-
-def test_example_function():
-    assert example_function() == 2
+def test_hello_world():
+    # Define a simple greeting
+    greeting = "hello world"
+    
+    # Use a standard Python assert statement to check for expected content
+    assert "hello" in greeting
+    assert "world" in greeting
+    assert "goodbye" not in greeting

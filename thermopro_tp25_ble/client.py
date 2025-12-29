@@ -33,7 +33,7 @@ def decode_packet(data: bytes) -> tuple[list[int | None], int | None]:
     offset = 5
     temps: list[int | None] = []
 
-    for _ in range(constants.NUM_PROBES):
+    for _ in range(NUM_PROBES):
         raw = _decode_bcd(data[offset : offset + 2])
         offset += 2
 
@@ -70,10 +70,10 @@ class TP25Client:
             msg = "BLE connection failed"
             raise RuntimeError(msg) from err
 
-        for cmd in constants.HANDSHAKE_COMMANDS:
+        for cmd in HANDSHAKE_COMMANDS:
             try:
                 await self._client.write_gatt_char(
-                    constants.CMD_CHAR_UUID,
+                    CMD_CHAR_UUID,
                     cmd,
                     response=False,
                 )
@@ -82,7 +82,7 @@ class TP25Client:
 
             await asyncio.sleep(0.05)
 
-        await self._client.start_notify(constants.DATA_CHAR_UUID, self._notification_handler)
+        await self._client.start_notify(DATA_CHAR_UUID, self._notification_handler)
 
     async def disconnect(self) -> None:
         """Disconnect the BLE client."""
