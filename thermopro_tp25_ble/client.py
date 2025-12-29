@@ -8,7 +8,7 @@ from typing import Final
 
 from bleak import BleakClient, BleakError
 
-import .constants
+from .constants import HANDSHAKE_COMMANDS, CMD_CHAR_UUID, DATA_CHAR_UUID, NUM_PROBES
 
 def _decode_bcd(pair: bytes) -> int | None:
     """Decode a 2-byte BCD value."""
