@@ -231,7 +231,7 @@ test = [
 
 [package.metadata]
 requires-dist = [
-    { name = "bleak", specifier = ">=2.1.0" },
+    { name = "bleak", specifier = ">=1.0.1" },
     { name = "pytest", marker = "extra == 'test'" },
 ]
 provides-extras = ["test"]
