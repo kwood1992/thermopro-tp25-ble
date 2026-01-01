@@ -7,6 +7,18 @@
 
 Thermopro TP25 BLE Library
 
+Shoutout to https://martys.blog/posts/thermopro-3-raw-data for useful information on decoding probe temperature readings!
+
+## Known Issues
+* Battery level is nowhere near right.
+    * If someone has this thermometer, lab bench power supply and grabs the device raw data that'll be most helpful
+
+## Future Releases
+* Set the probes type (e.g.: ambient or food internal temp)
+* Set the ambient low and high thresholds
+* Set the food internal temp goal
+* Silence the hub alarm
+
 ## Installation
 
 Install this library using `pip`:
