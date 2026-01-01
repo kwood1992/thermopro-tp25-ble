@@ -1,5 +1,11 @@
 """TP25 BLE thermometer client library."""
 
-from .client import TP25Client
+from .client import BatteryInfo, BatteryReading, ProbeInfo, ProbeReading, ThermoProTP25
 
-__all__ = ["TP25Client"]
+__all__ = [
+    "BatteryInfo",
+    "BatteryReading",
+    "ProbeInfo",
+    "ProbeReading",
+    "ThermoProTP25",
+]
