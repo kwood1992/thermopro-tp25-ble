@@ -218,7 +218,7 @@ wheels = [
 
 [[package]]
 name = "thermopro-tp25-ble"
-version = "0.1"
+version = "1.0.2"
 source = { editable = "." }
 dependencies = [
     { name = "bleak" },
